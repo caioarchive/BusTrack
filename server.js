@@ -84,7 +84,7 @@ app.put('/motoristas/:id', (req, res) => {
         const index = motoristas.findIndex(p => p.id === id);
 
         if (index === -1) {
-            return res.status(404).json({ mensagem: 'Participante não encontrado!' });
+            return res.status(404).json({ mensagem: 'Motorista não encontrado!' });
         }
         const camposAtualizaveis = { nome, email, senha, idade, cidade }
         for (const campo in camposAtualizaveis) {
@@ -98,7 +98,7 @@ app.put('/motoristas/:id', (req, res) => {
                 return res.status(500).json({ mensagem: 'Erro ao salvar alterações!' });
             }
 
-            res.status(200).json({ mensagem: 'Participante atualizado com sucesso!', participante: motoristas[index] });
+            res.status(200).json({ mensagem: 'Motorista atualizado com sucesso!', Motorista: motoristas[index] });
         });
     });
 });
