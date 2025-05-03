@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1746283660638,
+    "nome": "CAIO",
+    "dataNascimento": "15/06/2007",
+    "carteiraHabilitacao": 18,
+    "senha": 123413
+  },
+  {
+    "id": 1746283692751,
+    "nome": "CAIO",
+    "dataNascimento": "15/06/2007",
+    "carteiraHabilitacao": 18
+  },
+  {
+    "id": 1746283733158,
+    "nome": "CAIO",
+    "dataNascimento": "15/06/2007",
+    "carteiraHabilitacao": 18
+  }
+]
